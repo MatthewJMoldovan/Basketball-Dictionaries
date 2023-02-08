@@ -54,4 +54,5 @@ class Player:
 players_obj=[]
 for x in players:
     players_obj.append(Player(x))
-print(players_obj)
+print(players_obj[1].name)
+print(players[1]["name"])
